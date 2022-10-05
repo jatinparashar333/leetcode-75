@@ -7,7 +7,6 @@ public:
             total_sum+=nums[i];
         }
         for(int i=0;i<n;i++){
-            cout<<sum<<" "<<total_sum<<"\n";
             total_sum-=nums[i];
             if(sum==total_sum){
                 return i;
